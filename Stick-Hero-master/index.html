@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, inital-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>Stick Hero</title>
+  <link href="#" rel="icon">
+  <link rel="stylesheet" href="dist/css/style.min.css?5">
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49734880-3', 'auto');
+  ga('send', 'pageview');
+</script>
+<div class="qr-code">
+  <img width="150" src="images/qr.png" />
+  <p>Scan QR Code</p>
+  <p>Play it on your mobile devices</p>
+</div>
+<div id="game">
+  <div class="welcome overlay">
+    <div class="game-title">STICK HERO</div>
+    <div class="btn-play"><div>Begin</div></div>
+    <div class="btn-side btn-hero">Hero<div class="new icon"><span>New</span></div></div>
+    <div class="btn-side btn-draw">Luck<div class="icon"><span class="draw-total"></span></div></div>
+  </div>
+  <div class="heropick hero">
+    <div class="title">Hero Family <img src="images/watermelon.png"/><span class="total"></span></div>
+    <div class="heros">
+      <!-- row -->
+      <div class="wrapper" data-src="1">
+        <div class="hero1 hero-c">
+          <div class="ba left"></div>
+          <div class="ba right"></div>
+          <div class="mouse"></div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+        </div>
+      </div>
+      <div class="wrapper" data-src="11">
+        <div class="hero11 hero-c">
+          <div class="eye"></div>
+          <div class="hat"></div>
+          <div class="ribbon-up"></div>
+          <div class="ribbon-down"></div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+        </div>
+      </div>
+      <!-- row -->
+      <div class="wrapper locked" data-src="2" data-price="100">
+        <div class="price">100 <img src="images/watermelon.png"></div>
+        <div class="hero2 hero-c">
+          <div class="eye"></div>
+          <div class="nose"></div>
+          <div class="hat"></div>
+          <div class="ear-left"></div>
+          <div class="ear-right"></div>
+          <div class="hand"></div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+        </div>
+      </div>
+      <div class="wrapper locked" data-src="3" data-price="300">
+        <div class="price">300 <img src="images/watermelon.png"></div>
+        <div class="hero3 hero-c">
+          <div class="hat-up"></div>
+          <div class="hat-down"></div>
+          <div class="eye"></div>
+          <div class="hand"></div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+        </div>
+      </div>
+      <!-- row -->
+      <div class="wrapper locked" data-src="4" data-price="500">
+        <div class="price">500 <img src="images/watermelon.png"></div>
+        <div class="hero4 hero-c">
+          <div class="hat"></div>
+          <div class="ribbon-up"></div>
+          <div class="ribbon-down"></div>
+          <div class="eye"><div class="eyeball"></div></div>
+          <div class="body"></div>
+          <div class="mouse"></div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+        </div>
+      </div>
+      <div class="wrapper locked" data-src="7" data-price="600">
+        <div class="price">600 <img src="images/watermelon.png"></div>
+        <div class="hero7 hero-c">
+          <div class="hat hat1"></div>
+          <div class="hat hat2"></div>
+          <div class="hat hat3"></div>
+          <div class="eye"><div class="eyeball"></div></div>
+          <div class="nose"></div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+        </div>
+      </div>
+      <!-- row -->
+      <div class="wrapper locked" data-src="8" data-price="700">
+        <div class="price">700 <img src="images/watermelon.png"></div>
+        <div class="hero8 hero-c">
+          <div class="hat"></div>
+          <div class="eye"></div>
+          <div class="mouse"></div>
+          <div class="sword"></div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+        </div>
+      </div>
+      <div class="wrapper locked" data-src="12" data-price="800">
+        <div class="new">New</div>
+        <div class="price">800 <img src="images/watermelon.png">
+        </div>
+        <div class="hero12 hero-c">
+          <div class="head">
+            <div class="face">
+              <div class="eye left"><div class="eyeball"></div></div>
+              <div class="eye right"><div class="eyeball"></div></div>
+              <div class="nose"></div>
+              <div class="nose-line"></div>
+              <div class="mouse"></div>
+              <div class="m m1"></div>
+              <div class="m m2"></div>
+              <div class="m m3"></div>
+              <div class="m m4"></div>
+              <div class="m m5"></div>
+              <div class="m m6"></div>
+            </div>
+          </div>
+          <div class="body">
+            <div class="inside"><div class="pocket"></div></div>
+            <div class="hand left"></div>
+            <div class="hand right"></div>
+            <div class="foot left"></div>
+            <div class="foot right"></div>
+          </div>
+        </div>
+      </div>
+      <!-- row -->
+      <div class="wrapper locked" data-src="9" data-price="900">
+        <div class="new">New</div>
+        <div class="price">900 <img src="images/watermelon.png">
+        </div>
+        <div class="hero9 hero-c">
+          <div class="body">
+            <div class="hand left"></div>
+            <div class="hand right"></div>
+            <div class="heart"></div>
+            <div class="foot left"></div>
+            <div class="foot right"></div>
+          </div>
+          <div class="head">
+            <div class="eye-left"></div>
+            <div class="eye-right"></div>
+            <div class="eye-line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper locked" data-src="10" data-price="1000">
+        <div class="price">1000 <img src="images/watermelon.png"></div>
+        <div class="hero10 hero-c">
+          <div class="leaf left"></div>
+          <div class="leaf right"></div>
+          <div class="ball1"></div>
+          <div class="ball2"></div>
+          <div class="eye"><div class="eyeball"></div></div>
+          <div class="mouse"></div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+        </div>
+      </div>
+      <!-- row -->
+      <div class="wrapper combo locked" data-src="13" data-price="9999999" style="height:70px;">
+        <div class="price" style="line-height:40px;">Unlock this via "Luck"</div>
+        <div class="hero13 hero-c">
+          <div class="head">
+            <div class="hat-top"><div class="dot"></div></div>
+            <div class="hat"></div>
+            <div class="half"></div>
+            <div class="eye left"><div class="eyeball"><div class="eyeball2"></div></div></div>
+            <div class="eye right"><div class="eyeball"><div class="eyeball2"></div></div></div>
+            <div class="nose"></div>
+            <div class="mouse"></div>
+            <div class="m left"></div>
+            <div class="m right"></div>
+            <div class="ear left"></div>
+            <div class="ear right"></div>
+          </div>
+          <div class="body">
+            <div class="strip1"></div>
+            <div class="strip2"></div>
+            <div class="hand left"></div>
+            <div class="hand right"></div>
+            <div class="foot left"></div>
+            <div class="foot right"></div>
+          </div>
+        </div>
+      </div>
+      <!-- row -->
+      <div class="wrapper combo locked" data-src="5" data-price="9999999">
+        <div class="price">Unlock via 5 times +1 combo</div>
+        <div class="hero5 hero-c">
+          <div class="hair-up"></div>
+          <div class="hair-down"></div>
+          <div class="hand"></div>
+          <div class="eye"></div>
+          <div class="ribbon"></div>
+          <div class="foot left"></div>
+          <div class="foot right"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="draw">
+    <div class="draw-title">I fell lucky today <span class="draw-left">Remain:<span class="draw-total">0</span></span></div>
+    <div class="drawer">
+      <img class="draw-plate" width="200" src="images/draw.png" />
+      <div class="draw-btn"></div>
+    </div>
+    <div class="draw-result">
+      <p>Congratulations！You win</p>
+      <p class="draw-prize"></p>
+    </div>
+    <p class="draw-footer">Rule: You get 1 draw every 20 score you gain in the game.</p>
+  </div>
+  <div class="game-over overlay">
+    <div class="title">Game Over!</div>
+    <div class="board">
+      <p>Score</p>
+      <p class="score"></p>
+      <p>Best</p>
+      <p class="best"></p>
+    </div>
+    <div class="actions">
+      <div class="btn btn-playagain">Play Again</div>
+      <div class="btn btn-home">Back Home</div>
+    </div>
+  </div>
+  <div class="instruction">Hold your finger on the screen to stretch out the stick</div>
+  <div class="perfect">Perfect!!!</div>
+  <div class="watermelon"><span class="total"></span><img src="images/watermelon.png"/></div>
+  <div class="live-score"></div>
+  <div class="hero">
+    <div class="hero1 hero-p">
+      <div class="ba left"></div>
+      <div class="ba right"></div>
+      <div class="mouse"></div>
+      <div class="foot left"></div>
+      <div class="foot right"></div>
+    </div>
+    <div class="hero2 hero-p">
+      <div class="eye"></div>
+      <div class="nose"></div>
+      <div class="hat"></div>
+      <div class="ear-left"></div>
+      <div class="ear-right"></div>
+      <div class="hand"></div>
+      <div class="foot left"></div>
+      <div class="foot right"></div>
+    </div>
+    <div class="hero3 hero-p">
+      <div class="hat-up"></div>
+      <div class="hat-down"></div>
+      <div class="eye"></div>
+      <div class="hand"></div>
+      <div class="foot left"></div>
+      <div class="foot right"></div>
+    </div>
+    <div class="hero4 hero-p">
+      <div class="hat"></div>
+      <div class="ribbon-up"></div>
+      <div class="ribbon-down"></div>
+      <div class="eye"><div class="eyeball"></div></div>
+      <div class="body"></div>
+      <div class="mouse"></div>
+      <div class="foot left"></div>
+      <div class="foot right"></div>
+    </div>
+    <div class="hero5 hero-p">
+      <div class="hair-up"></div>
+      <div class="hair-down"></div>
+      <div class="hand"></div>
+      <div class="eye"></div>
+      <div class="ribbon"></div>
+      <div class="foot left"></div>
+      <div class="foot right"></div>
+    </div>
+    <div class="hero12 hero-p">
+      <div class="head">
+        <div class="face">
+          <div class="eye left"><div class="eyeball"></div></div>
+          <div class="eye right"><div class="eyeball"></div></div>
+          <div class="nose"></div>
+          <div class="nose-line"></div>
+          <div class="mouse"></div>
+          <div class="m m1"></div>
+          <div class="m m2"></div>
+          <div class="m m3"></div>
+          <div class="m m4"></div>
+          <div class="m m5"></div>
+          <div class="m m6"></div>
+        </div>
+      </div>
+      <div class="body">
+        <div class="inside"><div class="pocket"></div></div>
+        <div class="hand left"></div>
+        <div class="hand right"></div>
+        <div class="foot left"></div>
+        <div class="foot right"></div>
+      </div>
+    </div>
+    <div class="hero7 hero-p">
+      <div class="hat hat1"></div>
+      <div class="hat hat2"></div>
+      <div class="hat hat3"></div>
+      <div class="eye"><div class="eyeball"></div></div>
+      <div class="nose"></div>
+      <div class="foot left"></div>
+      <div class="foot right"></div>
+    </div>
+    <div class="hero8 hero-p">
+      <div class="hat"></div>
+      <div class="eye"></div>
+      <div class="mouse"></div>
+      <div class="sword"></div>
+      <div class="foot left"></div>
+      <div class="foot right"></div>
+    </div>
+    <div class="hero9 hero-p">
+      <div class="body">
+        <div class="hand left"></div>
+        <div class="hand right"></div>
+        <div class="heart"></div>
+        <div class="foot left"></div>
+        <div class="foot right"></div>
+      </div>
+      <div class="head">
+        <div class="eye-left"></div>
+        <div class="eye-right"></div>
+        <div class="eye-line"></div>
+      </div>
+    </div>
+    <div class="hero10 hero-p">
+      <div class="leaf left"></div>
+      <div class="leaf right"></div>
+      <div class="ball1"></div>
+      <div class="ball2"></div>
+      <div class="eye"><div class="eyeball"></div></div>
+      <div class="mouse"></div>
+      <div class="foot left"></div>
+      <div class="foot right"></div>
+    </div>
+    <div class="hero11 hero-p">
+      <div class="eye"></div>
+      <div class="hat"></div>
+      <div class="ribbon-up"></div>
+      <div class="ribbon-down"></div>
+      <div class="foot left"></div>
+      <div class="foot right"></div>
+    </div>
+    <div class="hero13 hero-p">
+      <div class="head">
+        <div class="hat-top"><div class="dot"></div></div>
+        <div class="hat"></div>
+        <div class="half"></div>
+        <div class="eye left"><div class="eyeball"><div class="eyeball2"></div></div></div>
+        <div class="eye right"><div class="eyeball"><div class="eyeball2"></div></div></div>
+        <div class="nose"></div>
+        <div class="mouse"></div>
+        <div class="m left"></div>
+        <div class="m right"></div>
+        <div class="ear left"></div>
+        <div class="ear right"></div>
+      </div>
+      <div class="body">
+        <div class="strip1"></div>
+        <div class="strip2"></div>
+        <div class="hand left"></div>
+        <div class="hand right"></div>
+        <div class="foot left"></div>
+        <div class="foot right"></div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">made with <span class="copyright__heart">♥</span> by Mark Zhou</div>
+  <div class="ads">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Stick-Hero -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-1157636439125028"
+         data-ad-slot="1029634598"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+</div>
+<script src="dist/js/m.min.js?5"></script>
+</body>
+</html>
