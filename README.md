@@ -183,3 +183,43 @@ if (codeWorking){
 </p>
 
 [![](https://visitcount.itsvg.in/api?id=rabiyul&pretty=true)](https://github-visitor-counter-pro.vercel.app)
+
+
+---
+<br/>
+
+<a href="https://github.com/rabiyulfahimhasim786/github-readme-activity-graph"><img alt="rabiyulfahimhasim786 Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=rabiyulfahimhasim786&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+
+<br/>
+<br/>
+
+## Connect with me:
+
+<p align="left">
+
+<a href = "https://www.linkedin.com/in/rabiyul-fahim-0b9981155/"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+<a href = "https://twitter.com/rabiyulfahim"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+<a href = "https://www.instagram.com/rabiyulfahim/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+
+
+</p>
+
+## ❤ Views and Followers
+
+[![](https://visitcount.itsvg.in/api?id=rabiyul&pretty=true)](https://github-visitor-counter-pro.vercel.app)
+
+<a href="https://github.com/rabiyulfahimhasim786?tab=followers"><img src="https://img.shields.io/github/followers/rabiyulfahimhasim786?label=Followers&style=social" alt="GitHub Badge"></a>
+
+
+---
+## 💰 You can help me by Donating
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/rabiyulfahim) 
+
+---
+
+<!---
+rabiyulfahimhasim786/rabiyulfahimhasim786 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+
+
