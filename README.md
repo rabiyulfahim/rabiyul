@@ -15,6 +15,7 @@
 ![](./src/header_.png)
 <a href="https://www.python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" align="right" height="48" width="48" ></a>
 
+<!--   my-info -->   
 <h1 align="center"> Hi 👋🏻, I'm Rabiyul </br> 
 </h1>
 <p align="center">I love creating new things ⚡</p>
