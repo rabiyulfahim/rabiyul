@@ -3,11 +3,11 @@
 
 <!--   my-icons -->
 <p align="center">
-    <a href="https://github.com/BEPb/BEPb"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
+    <a href="https://github.com/rabiyulfahim/rabiyul"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
     <a href="https://github.com/python/cpython"><img src="https://img.shields.io/badge/Python-3.10-FF1493.svg"></a>
-    <a href="https://github.com/BEPb/BEPb/graphs/contributors"><img src="https://img.shields.io/github/contributors/rabiyulfahim/rabiyul?color=blue"></a>
-    <a href="https://github.com/BEPb/BEPb/stargazers"><img src="https://img.shields.io/github/stars/rabiyulfahim/rabiyul.svg?logo=github"></a>
-    <a href="https://github.com/BEPb/BEPb/network/members"><img src="https://img.shields.io/github/forks/rabiyulfahim/rabiyul.svg?color=blue&logo=github"></a>
+    <a href="https://github.com/rabiyulfahim/rabiyul/graphs/contributors"><img src="https://img.shields.io/github/contributors/rabiyulfahim/rabiyul?color=blue"></a>
+    <a href="https://github.com/rabiyulfahim/rabiyul/stargazers"><img src="https://img.shields.io/github/stars/rabiyulfahim/rabiyul.svg?logo=github"></a>
+    <a href="https://github.com/rabiyulfahim/rabiyul/network/members"><img src="https://img.shields.io/github/forks/rabiyulfahim/rabiyul.svg?color=blue&logo=github"></a>
     <img src="https://visitor-badge.laobi.icu/badge?page_id=rabiyulfahim.rabiyul" alt="visitors"/>   
 </p>
 
